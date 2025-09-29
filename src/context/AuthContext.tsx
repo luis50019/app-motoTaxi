@@ -1,49 +1,50 @@
 import React, { createContext, ReactNode, useEffect, useState } from "react";
 import { getToken, removeToken, saveToken } from "../storage/authStorage";
+import { UseAuth } from "../hooks/UseAuth";
 
 type AutContextType = {
-  token:string|null;
-  login: (newToken:string) => Promise<void>;
-  logout:()=>Promise<void>;
+  token: string | null;
+  login: (newToken: string) => Promise<void>;
+  logout: () => Promise<void>;
 }
 
-export const AuthContext =  createContext<AutContextType>({
+export const AuthContext = createContext<AutContextType>({
   token: null,
-  login: async()=>{},
-  logout:async ()=>{}
+  login: async () => { },
+  logout: async () => { }
 });
 
 type Props = {
-  children:ReactNode;
+  children: ReactNode;
 };
 
-export const AuthProvider = ({children}: Props)=>{
+export const AuthProvider = ({ children }: Props) => {
 
-  const [token,setToken] = useState<string | null>(null);
+  const [token, setToken] = useState<string | null>(null);
+  const { AuthLogin } = UseAuth();
 
-  useEffect(()=>{
-    const loadToken = async()=>{
+  useEffect(() => {
+    const loadToken = async () => {
       const storedToken = await getToken();
-      if(storedToken) setToken(storedToken)
+      if (storedToken) setToken(storedToken)
     }
     loadToken();
 
-  },[])
-
+  }, [])
   //!Modificar logica
-  const login = async (newToken:string) =>{
+  const login = async (newToken: string) => {
     await saveToken(newToken);
     setToken(newToken);
   }
 
   //!Modificar logica
-  const logout = async()=>{
+  const logout = async () => {
     await removeToken();
     setToken(null);
   }
 
-  return(
-    <AuthContext.Provider value={{login,logout,token}} >
+  return (
+    <AuthContext.Provider value={{ login, logout, token }} >
       {children}
     </AuthContext.Provider>
   )

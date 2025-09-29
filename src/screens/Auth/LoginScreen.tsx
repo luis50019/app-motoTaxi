@@ -24,6 +24,11 @@ import { passwordValidations, phoneValidations } from "../../validations/authVal
 function LoginScreen({ navigation }: PropsAuth) {
   const { control, handleSubmit } = useForm<LoginForm>();
   const { AuthLogin,errorMessage } = UseAuth();
+  
+  const navigatePage = ()=>{
+    navigation.navigate("Home");
+  }
+
 
   return (
     <View style={StyleLoginScreen.container}>
@@ -58,9 +63,9 @@ function LoginScreen({ navigation }: PropsAuth) {
         />
         <TouchableOpacity
           style={StyleLoginScreen.button}
-          onPress={handleSubmit(AuthLogin)}
+          onPress={navigatePage}
         >
-          <Text>Ingresar</Text>
+          <Text>Ingresar</Text>  
         </TouchableOpacity>
         <View>
           <Text style={StyleLoginScreen.error}>{errorMessage.error}</Text>

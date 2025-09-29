@@ -1,34 +1,62 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 const TOKEN_KEY = "authToken";
+const TYPE_USER = "typeUser";
 
 //?Función para almacenar el token
-export const saveToken = async(token:string):Promise<void> =>{
+export const saveToken = async (token: string): Promise<void> => {
   try {
-    await AsyncStorage.setItem(TOKEN_KEY,token);
+    await AsyncStorage.setItem(TOKEN_KEY, token);
   } catch (error) {
     console.error("error al guardar el token");
   }
-  
-}
+};
 
 //?Función para obtener el token
-export const getToken = async():Promise<string|null> =>{
+export const getToken = async (): Promise<string | null> => {
   try {
     return await AsyncStorage.getItem(TOKEN_KEY);
   } catch (error) {
-    console.error("Error al obtener el token")
+    console.error("Error al obtener el token");
     return null;
   }
-}
+};
 
 //?Función para eliminar el token
-export const removeToken = async():Promise<void>=>{
+export const removeToken = async (): Promise<void> => {
   try {
     await AsyncStorage.removeItem(TOKEN_KEY);
   } catch (error) {
-    console.error("Error al remover el token")
+    console.error("Error al remover el token");
   }
-}
+};
 
+//?funcion para almacenatar tipo de usuario
+
+export const saveTypeUser = async (typeUser: string): Promise<void> => {
+  try {
+    await AsyncStorage.setItem(TYPE_USER, typeUser);
+  } catch (error) {
+    console.error("error al guardar el tipo de usuario");
+  }
+};
+
+//?Función para obtener el tipo de usuario
+export const getTypeUser = async (): Promise<string | null> => {
+  try {
+    return await AsyncStorage.getItem(TYPE_USER);
+  } catch (error) {
+    console.error("Error al obtener el tipo de usuario");
+    return null;
+  }
+};
+
+//?Función para eliminar el tipo de usuario
+export const removeTypeUser = async (): Promise<void> => {
+  try {
+    await AsyncStorage.removeItem(TYPE_USER);
+  } catch (error) {
+    console.error("Error al remover el tipo de usuario");
+  }
+};
 
