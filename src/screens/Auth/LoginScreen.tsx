@@ -23,9 +23,9 @@ import { passwordValidations, phoneValidations } from "../../validations/authVal
 
 function LoginScreen({ navigation }: PropsAuth) {
   const { control, handleSubmit } = useForm<LoginForm>();
-  const { AuthLogin,errorMessage } = UseAuth();
-  
-  const navigatePage = ()=>{
+  const { AuthLogin, errorMessage } = UseAuth();
+
+  const navigatePage = () => {
     navigation.navigate("Home");
   }
 
@@ -65,7 +65,7 @@ function LoginScreen({ navigation }: PropsAuth) {
           style={StyleLoginScreen.button}
           onPress={navigatePage}
         >
-          <Text>Ingresar</Text>  
+          <Text>Ingresar</Text>
         </TouchableOpacity>
         <View>
           <Text style={StyleLoginScreen.error}>{errorMessage.error}</Text>
