@@ -1,0 +1,99 @@
+{
+  "plus_code": {
+    "compound_code": "Q8QP+HJ9 Ocotlán de Morelos, Oaxaca, Mexico",
+    "global_code": "7685Q8QP+HJ9"
+  },
+  "results": [
+    {
+      "address_components": [Array],
+      "formatted_address": "Violetas 6, Jacarandas, 71510 Ocotlán de Morelos, Oax., Mexico",
+      "geometry": [Object],
+      "navigation_points": [Array],
+      "place_id": "ChIJzwYVLrNAx4UR7fktcpO2WLo",
+      "plus_code": [Object],
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "16 de Septiembre LB(TERRENO DE CULTIVO), Centro, 71510 Ocotlán de Morelos, Oax., Mexico",
+      "geometry": [Object],
+      "navigation_points": [Array],
+      "place_id": "ChIJla9_tExHx4UR-XC68X51K3E",
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "Q8QP+HJ Ocotlán de Morelos, Oaxaca, Mexico",
+      "geometry": [Object],
+      "place_id": "GhIJ4ZUkz_XJMEAR4mqu5HQqWMA",
+      "plus_code": [Object],
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "Violetas 5, Jacarandas, 71510 Ocotlán de Morelos, Oax., Mexico",
+      "geometry": [Object],
+      "navigation_points": [Array],
+      "place_id": "ChIJab7CXTxBx4URztFtJVoqSX4",
+      "plus_code": [Object],
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "Violetas 6, Jacarandas, 71510 Ocotlán de Morelos, Oax., Mexico",
+      "geometry": [Object],
+      "place_id": "Ej9WaW9sZXRhcyA2LCBKYWNhcmFuZGFzLCA3MTUxMCBPY290bMOhbiBkZSBNb3JlbG9zLCBPYXguLCBNZXhpY28iGhIYChQKEglnY8ovs0DHhRG_NY5vWJ5JqRAG",
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "16 de Septiembre, Centro, 71510 Ocotlán de Morelos, Oax., Mexico",
+      "geometry": [Object],
+      "place_id": "ChIJV3HQtExHx4UREgO1VGNnoaM",
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "Jacarandas, 71510 Ocotlán de Morelos, Oax., Mexico",
+      "geometry": [Object],
+      "place_id": "ChIJGzR07U1Hx4URrxzLvwEtS3Y",
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "71510 Ocotlán de Morelos, Oaxaca, Mexico",
+      "geometry": [Object],
+      "place_id": "ChIJkTX1XbZAx4URmImUaT_-OpA",
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "71510 Ocotlán de Morelos, Oaxaca, Mexico",
+      "geometry": [Object],
+      "place_id": "ChIJ88CjzK9Ax4URL0MQfDJoGGc",
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "Ocotlán de Morelos, Oax., Mexico",
+      "geometry": [Object],
+      "place_id": "ChIJby7_lLhAx4UR_o8B8Ry6OUg",
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "Oaxaca, Mexico",
+      "geometry": [Object],
+      "place_id": "ChIJUVwOOk_YwIURyQvZPUMMxkQ",
+      "types": [Array]
+    },
+    {
+      "address_components": [Array],
+      "formatted_address": "Mexico",
+      "geometry": [Object],
+      "place_id": "ChIJU1NoiDs6BIQREZgJa760ZO0",
+      "types": [Array]
+    }
+  ],
+  "status": "OK"
+}

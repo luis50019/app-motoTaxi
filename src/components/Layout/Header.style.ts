@@ -10,6 +10,8 @@ export const styleHeader = StyleSheet.create({
     paddingHorizontal: 15,
     paddingVertical: 5,
     width: "100%",
+    minHeight: 50,
+    maxHeight: 50,
     borderBottomRightRadius: 20,
     borderBottomLeftRadius: 20,
   },
@@ -40,11 +42,16 @@ export const styleHeader = StyleSheet.create({
   containerLocation: {
     display: "flex",
     flexDirection: "row",
+    alignItems: "center",
     gap: 10,
     width: "100%",
   },
-  location: {
+  neighborhood: {
+    fontSize: 25,
     color: "#fff",
+  },
+  street: {
     fontSize: 15,
+    color: "#aaa",
   },
 });

@@ -1,28 +1,13 @@
 import { useEffect, useState } from "react";
 import * as Location from "expo-location";
-import { getAddressFromCoords } from "./utils/location";
-
-interface Coordinates {
-  latitude: number;
-  longitude: number;
-  altitude: number | null;
-  accuracy: number | null;
-  altitudeAccuracy?: number | null;
-  heading?: number | null;
-  speed?: number | null;
-}
-
-interface Address {
-  street: string;
-  district: string;
-  neighborhood: string;
-  city: string;
-  region: string;
-  country: string;
-}
+import { useLocation } from "./utils/location";
+import { Coordinates } from "../../types/Address";
+import { Address } from "../../Interfaces/responseAddress";
 
 export function useRealTimeLocation() {
+  const { getAddressFromCoords } = useLocation();
   const [location, setLocation] = useState<Coordinates | null>(null);
+
   const [address, setAddress] = useState<Address | null>(null);
   useEffect(() => {
     let subscription: Location.LocationSubscription | null = null;
