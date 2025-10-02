@@ -12,8 +12,6 @@ export const styleHeader = StyleSheet.create({
     width: "100%",
     minHeight: 50,
     maxHeight: 50,
-    borderBottomRightRadius: 20,
-    borderBottomLeftRadius: 20,
   },
   titleHeader: {
     color: "#FF6B00",

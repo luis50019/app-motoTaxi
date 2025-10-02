@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.luis54467hh.mototaxis.app-mergeDebugResources-61:/values-bn/values-bn.xml",
+            "outputFile": "com.luis54467hh.mototaxis.app-mergeDebugResources-55:/values-bn/values-bn.xml",
             "map": [
                 {
-                    "source": "/home/luis/.gradle/caches/8.13/transforms/8c47125c9a335e989accf2286b6eb952/transformed/play-services-basement-18.4.0/res/values-bn/values.xml",
+                    "source": "/home/luis/.gradle/caches/8.13/transforms/ec01f3191ae34589d8280ff40a020da7/transformed/play-services-basement-18.1.0/res/values-bn/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/luis/.gradle/caches/8.13/transforms/3ff3b48c125af6c74caaf7ee6663189f/transformed/core-1.15.0/res/values-bn/values-bn.xml",
+                    "source": "/home/luis/.gradle/caches/8.13/transforms/41207700f36ebdcd5b3a67078d6765c9/transformed/core-1.13.1/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -38,7 +38,24 @@
                     }
                 },
                 {
-                    "source": "/home/luis/.gradle/caches/8.13/transforms/7becb12098085a58be85c10a694bf84d/transformed/material-1.12.0/res/values-bn/values-bn.xml",
+                    "source": "/home/luis/.gradle/caches/8.13/transforms/91f19ad2a9cb8ce17d2fb13f37788ece/transformed/play-services-base-18.2.0/res/values-bn/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,298,453,577,684,816,934,1042,1142,1281,1386,1538,1662,1791,1935,1991,2054",
+                        "endColumns": "104,154,123,106,131,117,107,99,138,104,151,123,128,143,55,62,85",
+                        "endOffsets": "297,452,576,683,815,933,1041,1141,1280,1385,1537,1661,1790,1934,1990,2053,2139"
+                    },
+                    "to": {
+                        "startLines": "50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "4699,4808,4967,5095,5206,5342,5464,5576,5832,5975,6084,6240,6368,6501,6649,6709,6776",
+                        "endColumns": "108,158,127,110,135,121,111,103,142,108,155,127,132,147,59,66,89",
+                        "endOffsets": "4803,4962,5090,5201,5337,5459,5571,5675,5970,6079,6235,6363,6496,6644,6704,6771,6861"
+                    }
+                },
+                {
+                    "source": "/home/luis/.gradle/caches/8.13/transforms/0c04d11a20b91ca09bc7ae91b37a2a4d/transformed/material-1.12.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -57,7 +74,7 @@
                     }
                 },
                 {
-                    "source": "/home/luis/.gradle/caches/8.13/transforms/af9a9d7ace362c65c6063a55648731b1/transformed/appcompat-1.7.0/res/values-bn/values-bn.xml",
+                    "source": "/home/luis/.gradle/caches/8.13/transforms/94019ebfbc7f777fc1cfa755b607a332/transformed/appcompat-1.7.0/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -74,24 +91,7 @@
                     }
                 },
                 {
-                    "source": "/home/luis/.gradle/caches/8.13/transforms/bf4e5700f050532bbd59ead7b0c07184/transformed/play-services-base-18.5.0/res/values-bn/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "193,298,453,577,684,816,934,1042,1142,1281,1386,1538,1662,1791,1935,1991,2054",
-                        "endColumns": "104,154,123,106,131,117,107,99,138,104,151,123,128,143,55,62,85",
-                        "endOffsets": "297,452,576,683,815,933,1041,1141,1280,1385,1537,1661,1790,1934,1990,2053,2139"
-                    },
-                    "to": {
-                        "startLines": "50,51,52,53,54,55,56,57,59,60,61,62,63,64,65,66,67",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "4699,4808,4967,5095,5206,5342,5464,5576,5832,5975,6084,6240,6368,6501,6649,6709,6776",
-                        "endColumns": "108,158,127,110,135,121,111,103,142,108,155,127,132,147,59,66,89",
-                        "endOffsets": "4803,4962,5090,5201,5337,5459,5571,5675,5970,6079,6235,6363,6496,6644,6704,6771,6861"
-                    }
-                },
-                {
-                    "source": "/home/luis/.gradle/caches/8.13/transforms/ecf58a1d5a3b5cc4faabc13e873181f2/transformed/react-android-0.79.5-debug/res/values-bn/values-bn.xml",
+                    "source": "/home/luis/.gradle/caches/8.13/transforms/8a81cfdbebe01053cfb05885f1d466e9/transformed/react-android-0.79.6-debug/res/values-bn/values-bn.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

@@ -10,7 +10,7 @@ add_subdirectory("/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis
 
 add_subdirectory("/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/" rngesturehandler_codegen_autolinked_build)
 
-add_subdirectory("/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/" RNMapsSpecs_autolinked_build)
+
 add_subdirectory("/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/" rnreanimated_autolinked_build)
 add_subdirectory("/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/" safeareacontext_autolinked_build)
 add_subdirectory("/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/" rnscreens_autolinked_build)
@@ -22,7 +22,7 @@ set(AUTOLINKED_LIBRARIES
   
   react_codegen_rngesturehandler_codegen
   
-  react_codegen_RNMapsSpecs
+  
   react_codegen_rnreanimated
   react_codegen_safeareacontext
   react_codegen_rnscreens

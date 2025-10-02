@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.luis54467hh.mototaxis.app-mergeDebugResources-61:/values-v27/values-v27.xml",
+            "outputFile": "com.luis54467hh.mototaxis.app-mergeDebugResources-55:/values-v27/values-v27.xml",
             "map": [
                 {
                     "source": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/intermediates/packaged_res/debug/packageDebugResources/values-v27/values-v27.xml",

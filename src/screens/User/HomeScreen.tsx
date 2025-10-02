@@ -1,8 +1,10 @@
 import { StatusBar } from "expo-status-bar";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
-import { StyleSheet, Text, View } from "react-native";
+import { View } from "react-native";
 import Header from "../../components/Layout/Header";
 import { LocationProvider } from "../../context/LocationContext";
+import MapScreen from "../Maps/MapScreen";
+
 export default function HomeScreen() {
   const insets = useSafeAreaInsets();
 
@@ -10,6 +12,7 @@ export default function HomeScreen() {
     <LocationProvider>
       <View
         style={{
+          flex: 1,
           paddingTop: insets.top,
           paddingBottom: insets.bottom,
           display: "flex",
@@ -18,19 +21,8 @@ export default function HomeScreen() {
       >
         <StatusBar style="dark" />
         <Header />
+        <MapScreen />
       </View>
     </LocationProvider>
   );
 }
-
-const styleHomePageUser = StyleSheet.create({
-  body: {
-    marginTop: 20,
-  },
-  title: {
-    paddingHorizontal: 15,
-    fontSize: 60,
-    fontWeight: "bold",
-    color: "#000",
-  },
-});

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.luis54467hh.mototaxis.app-mergeDebugResources-61:/values-xlarge-v4/values-xlarge-v4.xml",
+            "outputFile": "com.luis54467hh.mototaxis.app-mergeDebugResources-55:/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/home/luis/.gradle/caches/8.13/transforms/af9a9d7ace362c65c6063a55648731b1/transformed/appcompat-1.7.0/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "/home/luis/.gradle/caches/8.13/transforms/94019ebfbc7f777fc1cfa755b607a332/transformed/appcompat-1.7.0/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

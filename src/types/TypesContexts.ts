@@ -1,7 +1,8 @@
-import { Coordinates, Address } from "./Address";
+import { Coordinates } from "./Address";
+import { Address } from "../Interfaces/responseAddress";
 // ------------------------- LocationContextType ----------------LocationContextType
 export type LocationContextType = {
-  getLocation: () => Promise<void>;
+  getLocation: () => Coordinates | null;
   location: Coordinates | null;
   address: Address | null;
 };

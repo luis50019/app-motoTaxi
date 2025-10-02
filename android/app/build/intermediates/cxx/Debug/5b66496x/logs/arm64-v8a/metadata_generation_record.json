@@ -14,7 +14,7 @@
   },
   {
     "level_": 0,
-    "message_": "rebuilding JSON /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/android_gradle_build.json due to:",
+    "message_": "JSON \u0027/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/android_gradle_build.json\u0027 was up-to-date",
     "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
     "tag_": "debug|arm64-v8a",
     "diagnosticCode_": 0,
@@ -27,111 +27,7 @@
   },
   {
     "level_": 0,
-    "message_": "- no fingerprint file, will remove stale configuration folder",
-    "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
-    "tag_": "debug|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "/usr/lib/jvm/java-17-openjdk/bin/java \\\n  --class-path \\\n  /home/luis/.gradle/caches/modules-2/files-2.1/com.google.prefab/cli/2.1.0/aa32fec809c44fa531f01dcfb739b5b3304d3050/cli-2.1.0-all.jar \\\n  com.google.prefab.cli.AppKt \\\n  --build-system \\\n  cmake \\\n  --platform \\\n  android \\\n  --abi \\\n  arm64-v8a \\\n  --os-version \\\n  24 \\\n  --stl \\\n  c++_shared \\\n  --ndk-version \\\n  27 \\\n  --output \\\n  /tmp/agp-prefab-staging5057196307915755568/staged-cli-output \\\n  /home/luis/.gradle/caches/8.13/transforms/ecf58a1d5a3b5cc4faabc13e873181f2/transformed/react-android-0.79.5-debug/prefab \\\n  /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build/intermediates/cxx/refs/react-native-reanimated/3y3f2a4a \\\n  /home/luis/.gradle/caches/8.13/transforms/35675df85bd02bb3d2682c8049acc4ba/transformed/hermes-android-0.79.5-debug/prefab \\\n  /home/luis/.gradle/caches/8.13/transforms/492d12ddde8d0414cdeaa8d1c9a89b37/transformed/fbjni-0.7.0/prefab\n",
-    "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
-    "tag_": "debug|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "Received process result: 0",
-    "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
-    "tag_": "debug|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "removing stale contents from \u0027/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a\u0027",
-    "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
-    "tag_": "debug|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "created folder \u0027/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a\u0027",
-    "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
-    "tag_": "debug|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "executing cmake /home/luis/Android/Sdk/cmake/3.22.1/bin/cmake \\\n  -H/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d24 \\\n  -DANDROID_PLATFORM\u003dandroid-24 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/home/luis/Android/Sdk/ndk/27.1.12297006 \\\n  -DCMAKE_ANDROID_NDK\u003d/home/luis/Android/Sdk/ndk/27.1.12297006 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/home/luis/Android/Sdk/ndk/27.1.12297006/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/home/luis/Android/Sdk/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build/intermediates/cxx/Debug/5b66496x/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build/intermediates/cxx/Debug/5b66496x/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -DCMAKE_FIND_ROOT_PATH\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/prefab/arm64-v8a/prefab \\\n  -B/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a \\\n  -GNinja \\\n  -DPROJECT_BUILD_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build \\\n  -DPROJECT_ROOT_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android \\\n  -DREACT_ANDROID_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid \\\n  -DANDROID_STL\u003dc++_shared \\\n  -DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES\u003dON\n",
-    "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
-    "tag_": "debug|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "/home/luis/Android/Sdk/cmake/3.22.1/bin/cmake \\\n  -H/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d24 \\\n  -DANDROID_PLATFORM\u003dandroid-24 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/home/luis/Android/Sdk/ndk/27.1.12297006 \\\n  -DCMAKE_ANDROID_NDK\u003d/home/luis/Android/Sdk/ndk/27.1.12297006 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/home/luis/Android/Sdk/ndk/27.1.12297006/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/home/luis/Android/Sdk/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build/intermediates/cxx/Debug/5b66496x/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build/intermediates/cxx/Debug/5b66496x/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -DCMAKE_FIND_ROOT_PATH\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/prefab/arm64-v8a/prefab \\\n  -B/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a \\\n  -GNinja \\\n  -DPROJECT_BUILD_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build \\\n  -DPROJECT_ROOT_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android \\\n  -DREACT_ANDROID_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid \\\n  -DANDROID_STL\u003dc++_shared \\\n  -DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES\u003dON\n",
-    "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
-    "tag_": "debug|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "Received process result: 1",
-    "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
-    "tag_": "debug|arm64-v8a",
-    "diagnosticCode_": 0,
-    "memoizedIsInitialized": 1,
-    "unknownFields": {
-      "fields": {}
-    },
-    "memoizedSize": -1,
-    "memoizedHashCode": 0
-  },
-  {
-    "level_": 0,
-    "message_": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: -- The C compiler identification is Clang 18.0.2\n-- The CXX compiler identification is Clang 18.0.2\n-- Detecting C compiler ABI info\n-- Detecting C compiler ABI info - done\n-- Check for working C compiler: /home/luis/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang - skipped\n-- Detecting C compile features\n-- Detecting C compile features - done\n-- Detecting CXX compiler ABI info\n-- Detecting CXX compiler ABI info - done\n-- Check for working CXX compiler: /home/luis/Android/Sdk/ndk/27.1.12297006/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ - skipped\n-- Detecting CXX compile features\n-- Detecting CXX compile features - done\n-- Configuring incomplete, errors occurred!\nSee also \"/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/CMakeOutput.log\".\n\nC++ build system [configure] failed while executing:\n    /home/luis/Android/Sdk/cmake/3.22.1/bin/cmake \\\n      -H/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup \\\n      -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n      -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n      -DCMAKE_SYSTEM_VERSION\u003d24 \\\n      -DANDROID_PLATFORM\u003dandroid-24 \\\n      -DANDROID_ABI\u003darm64-v8a \\\n      -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n      -DANDROID_NDK\u003d/home/luis/Android/Sdk/ndk/27.1.12297006 \\\n      -DCMAKE_ANDROID_NDK\u003d/home/luis/Android/Sdk/ndk/27.1.12297006 \\\n      -DCMAKE_TOOLCHAIN_FILE\u003d/home/luis/Android/Sdk/ndk/27.1.12297006/build/cmake/android.toolchain.cmake \\\n      -DCMAKE_MAKE_PROGRAM\u003d/home/luis/Android/Sdk/cmake/3.22.1/bin/ninja \\\n      -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build/intermediates/cxx/Debug/5b66496x/obj/arm64-v8a \\\n      -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build/intermediates/cxx/Debug/5b66496x/obj/arm64-v8a \\\n      -DCMAKE_BUILD_TYPE\u003dDebug \\\n      -DCMAKE_FIND_ROOT_PATH\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/prefab/arm64-v8a/prefab \\\n      -B/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a \\\n      -GNinja \\\n      -DPROJECT_BUILD_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build \\\n      -DPROJECT_ROOT_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android \\\n      -DREACT_ANDROID_DIR\u003d/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid \\\n      -DANDROID_STL\u003dc++_shared \\\n      -DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES\u003dON\n  from /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app\nCMake Error at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/CMakeLists.txt:28 (target_compile_reactnative_options):\n  Unknown CMake command \"target_compile_reactnative_options\".",
+    "message_": "JSON generation completed without problems",
     "file_": "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt",
     "tag_": "debug|arm64-v8a",
     "diagnosticCode_": 0,

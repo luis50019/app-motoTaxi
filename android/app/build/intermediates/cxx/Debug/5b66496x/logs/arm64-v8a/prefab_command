@@ -15,8 +15,8 @@
   --ndk-version \
   27 \
   --output \
-  /tmp/agp-prefab-staging5057196307915755568/staged-cli-output \
-  /home/luis/.gradle/caches/8.13/transforms/ecf58a1d5a3b5cc4faabc13e873181f2/transformed/react-android-0.79.5-debug/prefab \
+  /tmp/agp-prefab-staging3154695959768459493/staged-cli-output \
+  /home/luis/.gradle/caches/8.13/transforms/8a81cfdbebe01053cfb05885f1d466e9/transformed/react-android-0.79.6-debug/prefab \
   /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/build/intermediates/cxx/refs/react-native-reanimated/3y3f2a4a \
-  /home/luis/.gradle/caches/8.13/transforms/35675df85bd02bb3d2682c8049acc4ba/transformed/hermes-android-0.79.5-debug/prefab \
-  /home/luis/.gradle/caches/8.13/transforms/492d12ddde8d0414cdeaa8d1c9a89b37/transformed/fbjni-0.7.0/prefab
+  /home/luis/.gradle/caches/8.13/transforms/6fb658ce51339aaaeea6f62b0e107225/transformed/hermes-android-0.79.6-debug/prefab \
+  /home/luis/.gradle/caches/8.13/transforms/acdad09e14c6903331ae031071f348bb/transformed/fbjni-0.7.0/prefab

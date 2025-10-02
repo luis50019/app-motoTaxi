@@ -37,6 +37,31 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
+# react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/RNEdgeToEdge-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/react/renderer/components/RNEdgeToEdge/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/react/renderer/components/RNEdgeToEdge/ComponentDescriptors.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/react/renderer/components/RNEdgeToEdge/EventEmitters.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/react/renderer/components/RNEdgeToEdge/Props.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/react/renderer/components/RNEdgeToEdge/RNEdgeToEdgeJSI-generated.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/react/renderer/components/RNEdgeToEdge/ShadowNodes.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-edge-to-edge/android/build/generated/source/codegen/jni/react/renderer/components/RNEdgeToEdge/States.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
 # react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-gesture-handler/android/build/generated/source/codegen/jni/*.cpp")
 set(OLD_GLOB
@@ -62,25 +87,146 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
-# react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/CMakeLists.txt:9 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/*.cpp")
+# react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/*.cpp")
 set(OLD_GLOB
-  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/RNMapsSpecs-generated.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/rnreanimated-generated.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
   file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
 endif()
 
-# react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/CMakeLists.txt:9 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/*.cpp")
+# react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/*.cpp")
 set(OLD_GLOB
-  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/ComponentDescriptors.cpp"
-  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/EventEmitters.cpp"
-  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/Props.cpp"
-  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/RNMapsSpecsJSI-generated.cpp"
-  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/ShadowNodes.cpp"
-  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-maps/android/src/main/jni/react/renderer/components/RNMapsSpecs/States.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/ComponentDescriptors.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/EventEmitters.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/Props.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/ShadowNodes.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/States.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-reanimated/android/build/generated/source/codegen/jni/react/renderer/components/rnreanimated/rnreanimatedJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CUSTOM_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt:22 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/*.cpp")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CUSTOM_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt:22 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp/react/renderer/components/safeareacontext/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewShadowNode.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../../common/cpp/react/renderer/components/safeareacontext/RNCSafeAreaViewState.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CODEGEN_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/safeareacontext-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CODEGEN_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/ComponentDescriptors.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/EventEmitters.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/Props.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/ShadowNodes.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/States.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-safe-area-context/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/safeareacontext/safeareacontextJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CUSTOM_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/rnscreens.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CUSTOM_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSFullWindowOverlayShadowNode.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSModalScreenShadowNode.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenShadowNode.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderConfigShadowNode.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderConfigState.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderSubviewShadowNode.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenStackHeaderSubviewState.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/RNSScreenState.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CUSTOM_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:23 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../../common/cpp/react/renderer/components/rnscreens/utils/*.cpp")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# LIB_CODEGEN_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/CMakeLists.txt:24 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ComponentDescriptors.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/EventEmitters.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/Props.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/ShadowNodes.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/States.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-screens/android/src/main/jni/../../../build/generated/source/codegen/jni/react/renderer/components/rnscreens/rnscreensJSI-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/RNVectorIconsSpec-generated.cpp"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/android/app/.cxx/Debug/5b66496x/arm64-v8a/CMakeFiles/cmake.verify_globs")
+endif()
+
+# react_codegen_SRCS at /home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/CMakeLists.txt:9 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/*.cpp")
+set(OLD_GLOB
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/ComponentDescriptors.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/EventEmitters.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/Props.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/RNVectorIconsSpecJSI-generated.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/ShadowNodes.cpp"
+  "/home/luis/Documents/Proyectos/Sistema-mototaxis/App/mototaxis/node_modules/react-native-vector-icons/android/build/generated/source/codegen/jni/react/renderer/components/RNVectorIconsSpec/States.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
